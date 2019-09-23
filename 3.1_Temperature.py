@@ -13,6 +13,9 @@ In: -40  Out: ???
 
 '''
 print("hello")
+f=int(input("What is the Temperature in Fahrenheit?"))
+c=(f-32)*(5/9)
+print("The Temperature in Celsius is", c)
 
 
 
